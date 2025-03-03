@@ -1,3 +1,8 @@
+.hero-section {
+    background-color: #1f2937; /* Ensure everything is in the blue area */
+    padding: 20px;
+}
+
 .top {
     font-family: Roboto, sans-serif;
     display: flex;
@@ -18,4 +23,10 @@
     text-decoration: none;
     margin-left: 20px;
     font-size: 18px;
+}
+
+.text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
 }
