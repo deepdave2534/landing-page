@@ -1,23 +1,19 @@
-.hero-section {
-    background-color: #1f2937; /* Ensure everything is in the blue area */
-    padding: 20px;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
 }
 
-.hero-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 50px;
+.hero-section {
+    background-color: #1f2937;
+    padding: 20px 100px;
 }
 
 .top {
-    font-family: Roboto, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #1f2937;
+    padding-bottom: 50px;
 }
 
 .logo {
@@ -33,28 +29,59 @@
     font-size: 18px;
 }
 
-.text {
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
     color: #f9faf8;
     max-width: 450px;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
 }
 
 .text2 {
-    color: #f9faf8;
     font-size: 18px;
-}
-
-.image-placeholder img {
-    width: 400px; /* Adjust size as needed */
-    height: auto;
+    color: #e5e7eb;
+    margin: 10px 0;
 }
 
 .bt {
-    background-color: blue;
+    background-color: #3882f6;
     color: white;
-    text-align: center;
-    font-size: 15px;
-    padding: 20px;
-    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-placeholder {
+    background-color: gray;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
 }
