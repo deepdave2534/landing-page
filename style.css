@@ -103,17 +103,25 @@ body, html {
     font-weight:900;
 }
 
-.shape-container {
+.shapes-container {  /* Corrected class name */
     display: flex;
-    gap: 20px;
+    flex-direction: row;  /* Stack items in a column */
+    gap: 50px;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
+.shape-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
 .shape1 {
-    width:100px;
-    height:100px;
-    border:2px solid blue;
+    width:200px;
+    height:200px;
+    border:3px solid #3882f6;
     border-radius: 15px;
 }
