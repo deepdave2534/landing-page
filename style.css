@@ -49,3 +49,12 @@
     width: 400px; /* Adjust size as needed */
     height: auto;
 }
+
+.bt {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
