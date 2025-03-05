@@ -52,7 +52,7 @@ body, html {
 
 .text2 {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #b8babe;
     margin: 10px 0;
 }
 
@@ -84,4 +84,18 @@ body, html {
     align-items: center;
     justify-content: center;
     font-size: 16px;
+}
+
+.main-body {
+    padding: 20px 100px;
+}
+
+.main-text {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight:900;
 }
